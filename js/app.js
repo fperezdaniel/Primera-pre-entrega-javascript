@@ -39,6 +39,9 @@ do {
             total = productoTienda(total, 1200, cantidadProducto);
             alert(total);
             break;
+        default:
+            alert("Ingrese una opcion valida, por favor")
+
         //total = total+precio*cantidad
     }
     comenzar = prompt("desea continuar? si/no")

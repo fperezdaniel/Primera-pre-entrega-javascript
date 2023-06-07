@@ -30,7 +30,7 @@ do {
             alert(total);
             break;
         case juegoTubos:
-            cantidadProducto = parseInt(prompt("El costo del set de tubos  es de $1000, por favor ingrese la cantidad que desea comprar."));
+            cantidadProducto = parseInt(prompt("El costo del set de tubos  es de $2000, por favor ingrese la cantidad que desea comprar."));
             total = productoTienda(total, 2000, cantidadProducto);
             alert(total);
             break;
